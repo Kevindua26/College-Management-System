@@ -6,6 +6,7 @@ A full-stack web application designed to streamline college operations such as s
 
 ## 📂 Project Structure
 
+```bash
 CollegeManagementSystem/
 ├── .idea/
 ├── .mvn/
@@ -37,6 +38,7 @@ CollegeManagementSystem/
 │                           └── icon.png
 ├── target/
 └── .gitignore
+```
 
 
 ## 💡 Features
