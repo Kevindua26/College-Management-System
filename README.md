@@ -6,28 +6,38 @@ A full-stack web application designed to streamline college operations such as s
 
 ## 📂 Project Structure
 
-CollegeManagementSystem/ 
-│ 
-├── src/ 
-│         └── main/ 
-│ 
-├── java/ │ 
-│         └── com.example.collegemanagementsystem/ │ 
-│                                                  ├── WelcomeScene.java 
-│                                                  ├── FacultyPortalScene.java │ 
-│                                                  ├── AdminPortalScene.java │ 
-│                                                  ├── HelloApplication.java 
-│                                                  │── HelloController.java 
-│         └── resources/ │ 
-│                        └── com.example.collegemanagementsystem/ │ 
-│                                                                 ├── hello-view.fxml 
-│         └── icon/ │ 
-│                   ├── SO.png │ 
-│                   ├── BVIMR.png │ 
-│                   ├── BVP.png │ 
-│                   ├── home.svg │ 
-│                   └── icon.png 
-├── pom.xml 
+CollegeManagementSystem/
+├── .idea/
+├── .mvn/
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+├── README.md
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── example/
+│       │           └── collegemanagementsystem/
+│       │               ├── AdminPortalScene.java
+│       │               ├── FacultyPortalScene.java
+│       │               ├── HelloApplication.java
+│       │               ├── HelloController.java
+│       │               └── WelcomeScene.java
+│       └── resources/
+│           └── com/
+│               └── example/
+│                   └── collegemanagementsystem/
+│                       ├── hello-view.fxml
+│                       └── icon/
+│                           ├── SO.png
+│                           ├── BVIMR.png
+│                           ├── BVP.png
+│                           ├── home.svg
+│                           └── icon.png
+├── target/
+└── .gitignore
+
 
 ## 💡 Features
 
